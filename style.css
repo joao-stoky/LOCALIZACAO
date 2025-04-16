@@ -1,0 +1,125 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Round&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Sharp&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Round&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Sharp&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone&display=swap');   
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #202124;
+      font-family: Arial, sans-serif;
+      color: #e8eaed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+      padding-top: 40px;
+    }
+
+    .logo {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background-color: #303134;
+      border: 1px solid #5f6368;
+      border-radius: 24px;
+      padding: 10px 20px;
+      width: 500px;
+      max-width: 90%;
+      margin-bottom: 30px;
+    }
+
+    .search-box input {
+      flex: 1;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    .search-box button {
+      background-color: #303134;
+      color: #e8eaed;
+      border: 1px solid #5f6368;
+      padding: 8px 16px;
+      margin-left: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .search-box button:hover {
+      background-color: #3c4043;
+    }
+
+    #info, #endereco, #mapa {
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+
+    #mapa button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      background-color: #5f6368;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #mapa button:hover {
+      background-color: #8ab4f8;
+      color: #202124;
+    }
+
+    .shortcuts {
+      display: flex;
+      gap: 25px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+    }
+
+    .shortcut {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 80px;
+    }
+
+    .shortcut img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: #3c4043;
+      padding: 5px;
+    }
+
+    .shortcut span {
+      margin-top: 8px;
+      font-size: 0.85rem;
+      color: #e8eaed;
+    }
+
+    a {
+      color: #8ab4f8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
